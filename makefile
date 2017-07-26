@@ -20,4 +20,5 @@ clean:
 	cd compiler && $(MAKE) clean
 	cd assembler && $(MAKE) clean
 	cd processor && $(MAKE) clean
+	cd emulator && $(MAKE) clean
 	cd test_bench && $(MAKE) clean
